@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  },
+  "name": "codevember",
+  "version": "1.0.0",
+  "main": "Gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brushjg/codevember2016.git"
+  },
+  "keywords": [
+    "codevember",
+    "svg",
+    "demo"
+  ],
+  "author": "Jake!",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brushjg/codevember2016/issues"
+  },
+  "homepage": "https://github.com/brushjg/codevember2016#readme",
+  "description": ""
+}
