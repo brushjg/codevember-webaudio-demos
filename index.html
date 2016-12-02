@@ -1,10 +1,26 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 		<script src="dist/app.js"></script>
 	</head>
 	<body>
-		<div class="test">
+		<div class="title">
+		  (falling, beeping) Block Demo<br>
 		</div>
+		<svg width="400" height="400" id="svg">
+
+		 <rect id="rectblue" class="square" x="10.6" y="220.1" class="st0" width="67.5" height="30" />
+		  <line x1="150" y1="0" x2="150" y2="800" style="stroke:rgb(255,0,0);stroke-width:2" /> 
+		</svg> 
+		<button class="test">1 square</button>
+		<button class="generate">Generate Squares</button>
+		<button class="clear">Clear SVG</button>
+		<button class="sound">
+		  generate tone
+		</button>
+		<button class="stop">
+		  stop audio
+		</button>
 	</body>
 </html>
