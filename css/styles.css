@@ -5,7 +5,12 @@
 
 button {
   display: block;
-  margin-bottom: 20px; }
+  margin: 20px 0; }
+
+.testing-buttons {
+  width: 400px;
+  border-top: 1px solid black;
+}
 
 svg {
   margin: 20px auto;
